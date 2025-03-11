@@ -1714,7 +1714,7 @@ int main(int argc,char *argv[])
 	printf("Mitä helvettiä!?");
 	raw_argc = argc;
 	raw_argv = argv;
-
+}
 #ifdef HAVE_SIGACTION
 # ifdef HAVE_SIGPROCMASK
 	sigset_t sigmask;
